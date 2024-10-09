@@ -1,0 +1,30 @@
+# Ignore build products
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Don't ignore vital config and source code
+!Config/
+!Source/
+!*.uproject
+
+# Ignore all content by default
+Content/*
+
+# Allow specific folders like Blueprints and their assets
+!Content/Characters/
+!Content/BlueprintsMain/
+!Content/Characters/**
+!Content/BlueprintsMain/**
+
+# Ignore temporary files
+*.tmp
+*.log
+*.obj
+*.pdb
+*.exe
+*.opensdf
+*.sdf
+*.VC.db
